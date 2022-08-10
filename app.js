@@ -1,10 +1,17 @@
-//CommonJS, every file is module (by default)
-//CommonJS is a library
-//modules - split the code into smaller files for simpicity (a file can be a module)
-//MODULES - Encapsulated code (only share minimum)(ES6 Concept)
-
-//eg: all the code in 1 file
+const names = require('./4a.names');
+// const {john, peter} = require('./4a.names'); //alternative import option
+const sayHi = require('./4b.utils');
+//require is a general default variable - mentioned before
+//if local modules, there is a need for .(./ or ../), external modules- just ''
 
 sayHi('Susan');
-sayHi(john);
-sayHi(peter);
+sayHi(names.john);
+sayHi(names.peter);
+/*
+Hello Susan
+Hello John
+Hello Peter
+*/
+
+console.log(names);
+//in terminal: { john: 'John', peter: 'Peter' }
