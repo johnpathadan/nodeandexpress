@@ -7,11 +7,13 @@ const sayHi = require('./4b.utils');
 sayHi('Susan');
 sayHi(names.john);
 sayHi(names.peter);
+
 /*
 output:
 Hello Susan
 Hello John
 Hello Peter
+
 */
 
 console.log(names);
