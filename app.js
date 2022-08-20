@@ -13,7 +13,6 @@ output:
 Hello Susan
 Hello John
 Hello Peter
-
 */
 
 console.log(names);
