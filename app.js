@@ -17,3 +17,4 @@ Hello Peter
 
 console.log(names);
 //in terminal: { john: 'John', peter: 'Peter' }
+//code updation
