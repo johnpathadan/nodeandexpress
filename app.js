@@ -18,3 +18,4 @@ Hello Peter
 console.log(names);
 //in terminal: { john: 'John', peter: 'Peter' }
 //code updation
+//4 files with .js extension
