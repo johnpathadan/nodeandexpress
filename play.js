@@ -1,12 +1,20 @@
-let user = {
-    uName: "John",
+let person = {
+    name: "John Paul",
     age: 25,
-    // greet : function(){ //1st method
-    //     console.log('Hello, my name is '+this.uName);
-    // }
     greet(){
-        console.log('Hello, my name is '+this.uName); //2nd method
+        console.log('Hello person');
     }
 }
 
-user.greet();
+const normalWay = (user) =>{  //usual method
+    console.log(user.name);
+}
+
+normalWay(person);
+
+//destructing
+const destructing = ({name}) => {
+    console.log(name);
+}
+
+destructing(person);
