@@ -1,20 +1,6 @@
-let person = {
-    name: "John Paul",
-    age: 25,
-    greet(){
-        console.log('Hello person');
-    }
-}
+setTimeout(()=>{
+    console.log('Timer Function');
+}, 2000);
 
-const normalWay = (user) =>{  //usual method
-    console.log(user.name);
-}
-
-normalWay(person);
-
-//destructing
-const destructing = ({name}) => {
-    console.log(name);
-}
-
-destructing(person);
+console.log('Hello');
+console.log('Hi');
