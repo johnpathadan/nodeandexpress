@@ -7,5 +7,5 @@ server.listen(3000);
 
 /*
 output will have GET method, headers, and the url - localhost:3000 (url is what comes after /, since here
-/, it's just localhost:3000)
+there is no /, it's just localhost:3000)
 */
